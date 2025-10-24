@@ -14,12 +14,11 @@ while True:
         except:
             print('Введите пункт из меню!')
     if 1 <= command <= 3:
-        print(f'Вы выбрали: {menu[command-1]}')
+        print(f'Вы выбрали: {menu[command-1][3:]}')
     if command == 1:
         main_game.tic_tac_toe()
     if command == 2:
         main_game.tic_tac_toe(computer=True)
     if command == 3:
-        print('Ждем Вас снова! До свидания!')
         break
     
