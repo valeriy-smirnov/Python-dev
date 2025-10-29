@@ -39,7 +39,6 @@ def tic_tac_toe(computer=False):
         for j in range(3):
             s[i].append('-')
     move = 0
-    list_xy = {'X':[],'O':[]}
     # Main game cycle
     while move < 9:
         field= f'''             0    1    2
